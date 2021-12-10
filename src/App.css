@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.homepage-container {
+  background-color: #03a9f4;
+;}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+
+.navbar-logo {
+  margin-top: -25px;
+}
+
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
