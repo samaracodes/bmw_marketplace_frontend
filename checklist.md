@@ -12,3 +12,15 @@ progress:
 - add signup / login nav links 
 - add the carousel caption
 - put together the homepage section info 
+
+
+12/15 
+------------------
+progress:
+- added magnifying glass search icon in navbar
+- added signup / login nav links 
+- put together both homepage sections. 
+- added the carousel caption 
+
+// pending //
+- fix navbar to the top of page when scrolling 
