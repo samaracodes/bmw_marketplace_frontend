@@ -54,9 +54,10 @@
   text-align: right;
   padding: 10px;
   padding-right: 30px;
-  width: 360px;
-  margin: 30%;
-  margin-left: 45%;
+  width: 30%;
+  margin: 34%;
+  margin-left: 40%;
+  position: absolute;
 }
 
 .navbar-logo {

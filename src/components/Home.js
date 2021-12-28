@@ -7,7 +7,7 @@ const Home = () => {
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="autoswift-banner.png" class="d-block w-100 img-fluid" alt="BMW M Trio Banner"/>
-                        <div class="carousel-caption d-none d-md-block right-caption text-right">
+                        <div class="carousel-caption d-none d-md-block">
                             <h2>Where All BMW
                             <br></br>Enthusiasts ///Meet.</h2>
                         </div>
