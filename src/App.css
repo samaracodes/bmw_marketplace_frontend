@@ -36,6 +36,24 @@
     transform: rotate(360deg);
   }
 }
+/* ----------------NAVBAR STYLING------------- */
+
+.navbar-logo {
+  margin-top: -25px;
+}
+
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ----------------FOOTER STYLING------------- */
+ 
+.footer {
+  background-color: #03a9f4;
+}
+
+
+/* ----------------HOMEPAGE STYLING------------- */
 
 .homepage-container {
   background-color: #03a9f4;
@@ -46,7 +64,7 @@
   margin: auto;
 }
 
-.carousel-caption {
+#homepage-carousel-caption {
   color: #757575;
   background-color: #addef5;
   margin-bottom: 30%;
@@ -60,13 +78,6 @@
   position: absolute;
 }
 
-.navbar-logo {
-  margin-top: -25px;
-}
-
-.navbar {
-  font-family: 'Josefin Sans', sans-serif;
-}
 
 .homepage-section-1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -129,6 +140,62 @@
 .btn-outline-primary {
   border-width: 5px;
   border-color: #2196f3;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* ----------------CARS PAGE STYLING------------- */
+
+#carousel-image {
+  padding-top: -800px;
+}
+
+.cars-page-carousel {
+  padding-top: -400px;
+}
+
+.cars-page-search-box {
+  min-height: 20px;
+  padding: 13px;
+ 
+}
+
+.input-group {
+  border-radius: 33px;
+}
+
+#cars-section-border {
+  border: solid 20px #03a9f4;
+}
+
+#cars-card-title {
+  border-bottom: solid 1px black;
+}
+
+.cars-card-info {
+  color:grey;
+  font-size: 11px;
+}
+
+.cars-card-auction-info {
+  color:red;
+  font-size: 11px;
+}
+
+#cars-card-listing-type {
+ font-weight: 700;
+ white-space: nowrap;
+}
+
+
+.btn-outline-secondary {
+  border-width: 5px;
   color: black;
   font-size: 13px;
   font-weight: 600;
