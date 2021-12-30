@@ -46,3 +46,14 @@ progress:
 
 // pending //
 - cars & parts page: search box and search category styling
+
+12/30
+------------------
+progress:
+- updated site brand logo
+- implemented about page with message from the owner
+- additional /about route to main container switch router
+
+
+// pending //
+- about page: navbar font visibility issue
