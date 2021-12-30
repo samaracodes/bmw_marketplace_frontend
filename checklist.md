@@ -4,23 +4,45 @@ progress:
 - reinstalled npm due to v6 bug
 - implemented bootstrap
 - created main container, home component, navbar component, cars homepage component
-- worked on homepage UI (navbar setup, carousel, section)
+- homepage: worked on UI (navbar setup, carousel, section)
 - added Google Font Josefin Sans script to index.html (used for Navbar font)
 
 // pending //
-- add magnifying glass search icon in navbar
-- add signup / login nav links 
-- add the carousel caption
-- put together the homepage section info 
+- homepage: add magnifying glass search icon in navbar
+- homepage: add signup / login nav links 
+- homepage: add the carousel caption
+- homepage: put together the homepage section info 
 
 
 12/15 
 ------------------
 progress:
-- added magnifying glass search icon in navbar
-- added signup / login nav links 
-- put together both homepage sections. 
-- added the carousel caption 
+- homepage: added magnifying glass search icon in navbar
+- homepage: added signup / login nav links 
+- homepage: put together both homepage sections. 
+- homepage: added the carousel caption 
 
 // pending //
 - fix navbar to the top of page when scrolling 
+
+
+12/28
+------------------
+progress: 
+- homepage: couldn't fix navbar issue on sticky-top settings, so I just set it back to fixed-top for the time being
+- homepage: footer
+- cars page: carousel image
+
+// pending //
+- cars page: search box and search category styling
+- cars page: fetch babckend data to display all cars (or hard code it for the time being)
+
+12/29 
+------------------
+progress:
+- cars page: cards layout and styling, section border coloring
+- parts page: carousel setup, card layout and styling, section border coloring
+- implemented footer component in main container
+
+// pending //
+- cars & parts page: search box and search category styling
