@@ -6,8 +6,8 @@ const Home = () => {
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="autoswift-banner.png" class="d-block w-100 img-fluid" alt="BMW M Trio Banner"/>
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="bmw-trio-banner.png" class="d-block w-100 img-fluid" alt="BMW M Trio Banner"/>
+                        <div class="carousel-caption d-none d-md-block" id="homepage-carousel-caption">
                             <h2>Where All BMW
                             <br></br>Enthusiasts ///Meet.</h2>
                         </div>
@@ -28,6 +28,7 @@ const Home = () => {
                     <p class="section-caption-3">We are strict on keeping this platform clean and safe for everyone.</p>
                 </div>
             </section>
+
             <section class="feature py-0">
                 <div class="homepage-section-2 py-1">
                     <div class="row row-cols-1 row-cols-md-3 g-5">
