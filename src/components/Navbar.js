@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="navbar-conatiner">
+        <div className="navbar-container">
             <nav class="navbar fixed-top navbar-expand-md navbar-light p-md-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 al">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/cars">Cars For Sale</a>
+                                <a class="nav-link" aria-current="page" href="/cars">Buy Cars</a>
                             </li>
 
                             <li class="nav-item">
@@ -23,7 +23,7 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/sell-your-car">Sell Your Car</a>
+                                <a class="nav-link" href="/selling">Selling</a>
                             </li>
 
                             <li class="nav-item">
