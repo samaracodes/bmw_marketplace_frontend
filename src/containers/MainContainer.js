@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import Cars from '../components/Cars';
 import Parts from '../components/Parts';
+import About from '../components/About'
 
 
 class MainContainer extends Component {
@@ -14,9 +15,10 @@ class MainContainer extends Component {
             <Router>
                 <Navbar/>
                 <Switch>
-                    <Route exact path="/" component={Home}></Route>
-                    <Route exact path="/cars" component={Cars}></Route>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/cars" component={Cars} />
                     <Route exact path="/parts" component={Parts} />
+                    <Route exact path="/about" component={About} />
                 </Switch>
                 <Footer/>
             </Router>
