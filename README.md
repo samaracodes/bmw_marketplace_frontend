@@ -4,6 +4,7 @@
 BMW Marketplace is a social marketplace/public forum application designed to provide a unique and simple experience of buying, selling, and hosting giveaways for all BMW enthusiasts. Find anything from cars, parts, repair shops, and more.  
 
 Instagram: @bmwmrkt
+<br>
 Website: https://bmwmrkt.com
 
 # Link to Backend Repo:
@@ -24,9 +25,10 @@ How to run this app:
 
 # License
 "BMW Marketplace & BMW Mrkt"
-Created 2021 Samara Grant. 
+Created 2021 Samara Grant. <br>
 
 I own no rights to BMW nor have any affiliation with the BMW brand. This application is intended for public use for all enthusiasts and BMW car owners to enjoy.
+<br>
 
 Distributed under the MIT license. 
 
