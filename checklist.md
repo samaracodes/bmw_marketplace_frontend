@@ -57,3 +57,18 @@ progress:
 
 // pending //
 - about page: navbar font visibility issue
+
+2/05
+-------------------
+progress:
+- added google oauth to user login 
+- login, logout components for oauth implemented
+
+//pending//
+- signup page 
+- regular login form needs to be done
+- navbar situation needs to be looked at
+- home page section area responsiveness needs to be adjusted into flexbox instead of whatever concoction I did
+- fix navbar hamburger icon to have content in the dropdown
+- have an /about link somewhere on the site
+- setup backend api to start populating content
