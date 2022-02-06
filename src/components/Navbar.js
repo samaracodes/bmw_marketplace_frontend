@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div className="navbar-container">
-            <nav class="navbar fixed-top navbar-expand-md navbar-light p-md-3">
+            <nav class="navbar sticky-top navbar-expand-md navbar-light p-md-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
                         <img src="bmw-mrkt-logo.png" class="navbar-logo" alt="BMW Marketplace Brand Logo" height="100"/>
@@ -40,7 +41,8 @@ const Navbar = () => {
 
                         <ul class="navbar-nav mr-auto mb-2 mb-lg-0 al">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/signup">Signup | Login</a>
+                                <Link to="/login">Login</Link> | 
+                                <Link to="/signup"> Sign Up</Link>
                             </li>
                         </ul>
                     </div>
