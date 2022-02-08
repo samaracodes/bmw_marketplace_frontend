@@ -79,8 +79,9 @@ progress:
 - populated cars data from the api
 - setup react/redux/thunk flow
 - got rid of some minor html errors
+- moved car related information from the MainContainer to CarListingContainer
 
 //pending//
 * same as before * 
-+ "/cars/:car_id" path needs to be set in place
-+ changes need to be addressed in the backend regarding making cars & parts separate objects. 
+- "/cars/:car_id" path needs to be set in place
+- changes need to be addressed in the backend regarding making cars & parts separate objects. 
