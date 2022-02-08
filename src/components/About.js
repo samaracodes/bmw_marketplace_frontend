@@ -4,18 +4,18 @@ const About = () => {
     return (
         <div className="parts-page-container">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="parts-page-carousel carousel-item active">
-                        <img src="bmw-g8x-individuals-lineup.jpg" class="d-block w-100 img-fluid" alt="BMW G8x Lineup Banner" id="carousel-image"/>
-                        <div class="carousel-caption d-none d-md-block" id="homepage-carousel-caption">
+                <div className="carousel-inner">
+                    <div className="parts-page-carousel carousel-item active">
+                        <img src="bmw-g8x-individuals-lineup.jpg" className="d-block w-100 img-fluid" alt="BMW G8x Lineup Banner" id="carousel-image"/>
+                        <div className="carousel-caption d-none d-md-block" id="homepage-carousel-caption">
                             <h2>About Us</h2>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <section class="feature py-2" id="cars-section-border">
-                <div class="cars-section-1 container py-5">
+            <section className="feature py-2" id="cars-section-border">
+                <div className="cars-section-1 container py-5">
                     <h3>Message from the owner of this platform.
                     </h3>
 

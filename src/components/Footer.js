@@ -1,17 +1,17 @@
-import react from 'react';
+import React from 'react';
 
 const Footer = () => {
     return ( 
-        <div class="mt-6 footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col about-company">
-                            <h4 class="mt-lg-0 mt-sm-3">About Us</h4>
-                            <p class="text-white">BMW Marketplace was built as a space for enthusiasts to enjoy </p>
+        <div className="mt-6 footer">
+                <div className="container">
+                    <div className="row">
+                        <div className="col about-company">
+                            <h4 className="mt-lg-0 mt-sm-3">About Us</h4>
+                            <p className="text-white">BMW Marketplace is a space for enthusiasts to enjoy. </p>
                         </div>
 
-                        <div class="col links">
-                            <h4 class="mt-lg-0 mt-sm-3">See More</h4>
+                        <div className="col links">
+                            <h4 className="mt-lg-0 mt-sm-3">See More</h4>
                                 
                             <p><a href="/signup">Signup </a></p>
 
@@ -19,22 +19,22 @@ const Footer = () => {
                             
                             <p><a href="/parts">Buy Parts</a></p>
 
-                            <p><a href="/s">Sell Your Items</a></p>
+                            <p><a href="/na">Sell Your Items</a></p>
 
-                            <p><a href="#">Service & Repair</a></p>
+                            <p><a href="/na">Service & Repair</a></p>
                         </div>
 
-                        <div class="col location">
-                            <h4 class="mt-lg-0 mt-sm-3">Location</h4>
+                        <div className="col location">
+                            <h4 className="mt-lg-0 mt-sm-3">Location</h4>
                             <p>123 Main Street, New York, NY 10001</p>
-                            <p class="mb-0"><i class="fa fa-phone mr-3"></i>(212) 123-4567</p>
-                            <p><i class="fa fa-envelope-o mr-3"></i>contact@bmwmarketplace.com</p>
+                            <p className="mb-0"><i className="fa fa-phone mr-3"></i>(212) 123-4567</p>
+                            <p><i className="fa fa-envelope-o mr-3"></i>contact@bmwmarketplace.com</p>
                         </div>
                     </div>
 
-                    <div class="row mt-2">
-                        <div class="col copyright">
-                        <p class=""><small class="text-white-50">© 2021 BMW Marketplace. All Rights Reserved.</small></p>
+                    <div className="row mt-2">
+                        <div className="col copyright">
+                        <p className=""><small className="text-white-50">© 2021 BMW Marketplace. All Rights Reserved.</small></p>
                         </div>
                     </div>
                 </div>
