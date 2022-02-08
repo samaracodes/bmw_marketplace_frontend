@@ -72,3 +72,15 @@ progress:
 - fix navbar hamburger icon to have content in the dropdown
 - have an /about link somewhere on the site
 - setup backend api to start populating content
+
+2/07
+--------------------
+progress: 
+- populated cars data from the api
+- setup react/redux/thunk flow
+- got rid of some minor html errors
+
+//pending//
+* same as before * 
++ "/cars/:car_id" path needs to be set in place
++ changes need to be addressed in the backend regarding making cars & parts separate objects. 
