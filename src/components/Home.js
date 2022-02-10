@@ -37,7 +37,7 @@ const Home = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Find Cars</h5>
                                     <img src="imola-red-m3.jpg" className="card-img-top" alt="..."/><p></p>
-                                    <a href="/na" className="btn btn-sm  btn-outline-primary">See All Cars</a>
+                                    <a href="/cars" className="btn btn-sm  btn-outline-primary">See All Cars</a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const Home = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Find Parts</h5>
                                     <img src="bmw-brakes.jpg" className="card-img-top" alt="..."/><p></p>
-                                    <a href="/na" className="btn btn-sm btn-outline-primary">See All Parts</a>
+                                    <a href="/parts" className="btn btn-sm btn-outline-primary">See All Parts</a>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const Home = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Find Shops</h5>
                                     <img src="BMW-Service-Center-Cropped.jpg" className="card-img-top" alt="..."/><p></p>
-                                    <a href="/na" className="btn btn-sm btn-outline-primary">See All Shops</a>
+                                    <a href="/service" className="btn btn-sm btn-outline-primary">See All Shops</a>
                                 </div>
                             </div>
                         </div>
