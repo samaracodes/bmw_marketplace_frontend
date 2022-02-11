@@ -5,20 +5,12 @@ import { fetchCars } from '../actions/fetchCars'
 import Cars from '../components/Cars'
 
 class CarListingsContainer extends Component {
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            cars: []
-        }
-    }
-
-
+    
     render() {
         return (
             <div>
                 <Switch>
-                    <Route exact path="/cars" render={(routerProps) => <Cars {...routerProps} cars={this.props.cars}/>} />
+                    <Route exact path="/cars" render={(routerProps) => <Cars {...routerProps} cars={this.props.cars} />} />
                 </Switch>
             </div>
         )
@@ -31,7 +23,7 @@ class CarListingsContainer extends Component {
 
 const mapStateToProps = state => {
     return {
-        cars: state.allCars.cars
+        cars: state.cars
     }
 }
 
