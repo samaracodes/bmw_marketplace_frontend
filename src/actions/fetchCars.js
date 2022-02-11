@@ -1,17 +1,7 @@
-export const fetchCars = (cars) => {
+export function fetchCars() {
     return (dispatch) => {
-        fetch("http://localhost:3001/api/v1/listings", {
-            credentials: "include",
-            method: "GET", 
-            headers: {
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": '*'
-            },
-        })
+        fetch("http://localhost:3001/api/v1/listings")
         .then(response => response.json())
-        .then(cars => dispatch({
-            type: "FETCH_CARS",
-            payload: cars.data
-        }))
+        .then(cars => dispatch({type: "FETCH_CARS", payload: cars }))
     }
 }
