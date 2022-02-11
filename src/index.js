@@ -4,9 +4,25 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux'
-import store from './store.js'
-import reportWebVitals from './reportWebVitals';
+import { createStore, applyMiddleware, combineReducers, compose } from 'redux'
+import thunk from 'redux-thunk'
+import allCars from './reducers/allCars'
+import usersReducer from './reducers/usersReducer'
+import currentUser from './reducers/currentUser'
+import loginForm from './reducers/loginForm'
+import signupForm from './reducers/signupForm'
 
+const reducer = combineReducers({
+  cars: allCars,
+  users: usersReducer, 
+  currentUser,
+  loginForm,
+  signupForm
+})
+
+const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+let store = createStore(reducer, composeEnhancer(applyMiddleware(thunk)))
 
 ReactDOM.render(
   <Provider store={store}>
@@ -16,8 +32,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
