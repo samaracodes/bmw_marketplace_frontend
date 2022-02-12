@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Logout from './Logout';
 
-const Navbar = () => {
+
+const Navbar = ({loggedIn}) => {    
+    
     return (
         <div className="navbar-container">
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-md-0">
@@ -41,12 +43,19 @@ const Navbar = () => {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a className="dropdown-item" href="/about">About</a></li>
                                     <li><a className="dropdown-item" href="/selling">Sell your stuff</a></li>
-                                    <li><a className="dropdown-item" href="#">Become a member</a></li>
                                 </ul>
                             </li>              
                         </ul>
 
-
+                        {loggedIn ? <ul className="nav navbar-nav navbar-right">
+                            <li className="nav-item">
+                                <a className="nav-link btn" href="#">Welcome User </a>
+                            </li>
+                        </ul> 
+                        
+                        
+                        : 
+                            
                         <ul className="nav navbar-nav navbar-right">
                             <li className="nav-item">
                                 <a className="nav-link btn signup-login-btn" href="/signup">Signup</a>
@@ -55,12 +64,16 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a className="nav-link signup-login-btn" href="/login">Login</a>
                             </li>
-                        </ul>
+                        </ul>}
+
+                        {loggedIn ? <Logout /> : null}
                     </div>
                 </div>
             </nav>
         </div>
     )
 }
+
+
 
 export default Navbar
