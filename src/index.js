@@ -7,14 +7,12 @@ import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, combineReducers, compose } from 'redux'
 import thunk from 'redux-thunk'
 import allCars from './reducers/allCars'
-import usersReducer from './reducers/usersReducer'
 import currentUser from './reducers/currentUser'
 import loginForm from './reducers/loginForm'
 import signupForm from './reducers/signupForm'
 
 const reducer = combineReducers({
   cars: allCars,
-  users: usersReducer, 
   currentUser,
   loginForm,
   signupForm
