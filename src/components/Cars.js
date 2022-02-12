@@ -2,8 +2,6 @@ import React from 'react';
 
 const Cars = ({ cars }) => {
     
-
-
     return (
 
         <div className="cars-page-container">
@@ -31,7 +29,7 @@ const Cars = ({ cars }) => {
                     <h3>Shop All Cars</h3> 
                     <div className="row row-cols-1 row-cols-lg-3 g-6">
 
-                        {cars.map(car =>
+                        {cars.cars.map(car =>
                             <div className="col" key={car.id}> 
                                 <div className="card h-100" key={car.id}>
                                     <div className="card-body">
