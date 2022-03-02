@@ -44,7 +44,7 @@ export const clearCurrentUser = () => {
 // returns a function, within the function we return a promise
 export const getCurrentUser = (data) => {
     return (dispatch) => { 
-        return fetch("http://localhost:3001/api/v1/get_current_user", { 
+        return fetch("https://bmwmrkt-api.herokuapp.com/api/v1/get_current_user", { 
             headers: {
                 "Content-Type": "application/json"
             },
@@ -69,7 +69,7 @@ export const signup = (credentials, history) => {
       const userInfo = {
         user: credentials
       }
-      return fetch("http://localhost:3001/api/v1/signup", {
+      return fetch("http://bmwmrkt-api.herokuapp.com/api/v1/signup", {
         credentials: "include",
         method: "POST",
         headers: {
@@ -94,7 +94,7 @@ export const signup = (credentials, history) => {
 
 export const login = (info, history) => {
     return (dispatch) => { 
-        return fetch("http://localhost:3001/api/v1/login", {
+        return fetch("http://bmwmrkt-api.herokuapp.com/api/v1/login", {
             credentials: "include",
             method: "POST", 
             headers: {
@@ -121,7 +121,7 @@ export const login = (info, history) => {
 export const logout = (event) => {
     return (dispatch) => {
         dispatch(clearCurrentUser())
-        return fetch('http://localhost:3001/api/v1/logout', {
+        return fetch('http://bmwmrkt-api.herokuapp.com/api/v1/logout', {
             credentials: "include",
             method: "DELETE"
         }),
