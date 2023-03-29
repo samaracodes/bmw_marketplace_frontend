@@ -85,3 +85,17 @@ progress:
 * same as before * 
 - "/cars/:car_id" path needs to be set in place
 - changes need to be addressed in the backend regarding making cars & parts separate objects. 
+
+2/9 - 2/11
+-------------------
+progress: 
+* addressed all prior concerns * 
+- implemented signup and login authentication (store, actions, reducers, components, etc)
+- removed google oauth (will add later down the line)
+
+//pending//
+- navbar needs to inherit current user's name from props
+- user only paths need to be implemented
+- /selling page needs to be implemented (crud functionality)
+- "/cars/:car_id" path needs to be set in place
+- try filtering through car/parts listings
