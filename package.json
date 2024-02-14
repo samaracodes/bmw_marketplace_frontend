@@ -1,6 +1,6 @@
 {
   "name": "bmw_marketplace_frontend",
-  "homepage": "bmw_marketplace_frontend",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

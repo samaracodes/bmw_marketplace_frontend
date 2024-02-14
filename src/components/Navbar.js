@@ -1,5 +1,7 @@
 import React from 'react';
 import Logout from './Logout';
+import { NavLink } from "react-router-dom";
+
 
 
 const Navbar = ({loggedIn}) => {    
@@ -9,7 +11,7 @@ const Navbar = ({loggedIn}) => {
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-md-0">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img src="bmw-mrkt-logo.png" className="navbar-logo" alt="BMW Marketplace Brand Logo" height="90"/>
+                        <img src="./bmw-mrkt-logo.png" className="navbar-logo" alt="BMW Marketplace Brand Logo" height="90"/>
                     </a>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,19 +22,19 @@ const Navbar = ({loggedIn}) => {
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Home</a>
+                                <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/cars">Cars</a>
+                                <NavLink className="nav-link" aria-current="page" to="/cars">Cars</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="/parts">Parts</a>
+                                <NavLink className="nav-link" to="/parts">Parts</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="/service">Service & Repair</a>
+                                <NavLink className="nav-link" to="/service">Service & Repair</NavLink>
                             </li> 
  
 
