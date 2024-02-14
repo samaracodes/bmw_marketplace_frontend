@@ -1,5 +1,6 @@
 {
   "name": "bmw_marketplace_frontend",
+  "homepage": "https://samaracodes.github.io/bmw_marketplace_frontend/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
