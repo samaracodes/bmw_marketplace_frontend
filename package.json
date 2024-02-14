@@ -1,6 +1,6 @@
 {
   "name": "bmw_marketplace_frontend",
-  "homepage": "./",
+  "homepage": "bmw-mrkt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
